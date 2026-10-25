@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Резюме | Бобозода Расул</title>
+  <meta name="description" content="Резюме и портфолио: Бобозода Расул — веб-разработчик">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Подключение библиотеки иконок Font Awesome вместо эмодзи -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Шапка и навигация (чистый CSS, без JS) -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#" class="logo">Расул<span>.</span></a>
+
+      <!-- CSS Checkbox для адаптивного мобильного меню -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="nav-burger" aria-label="Открыть меню">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">Обо мне</a></li>
+          <li><a href="#education" class="nav-link">Образование</a></li>
+          <li><a href="#experience" class="nav-link">Опыт работы</a></li>
+          <li><a href="#skills" class="nav-link">Навыки</a></li>
+          <li><a href="#projects" class="nav-link">Проекты</a></li>
+          <li><a href="#contact" class="nav-link">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <a href="#contact" class="btn btn-primary nav-cta">Связаться со мной</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Главный баннер (Hero) без градиентов -->
+    <section class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <span class="badge">Веб-разработчик</span>
+          <h1 class="hero-title">Привет, я <span class="accent-text">Бобозода Расул</span></h1>
+          <p class="hero-subtitle">
+            Создаю современные, адаптивные и удобные веб-сайты. Фокусируюсь на чистом коде, доступности и быстрой загрузке.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Связаться со мной</a>
+            <a href="#projects" class="btn btn-outline">Мои проекты</a>
+          </div>
+        </div>
+        <div class="hero-avatar">
+          <div class="avatar-frame">
+            <div class="avatar-initials">БР</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 1. Обо мне -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Обо мне</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="card about-card">
+          <p>
+            Целеустремлённый и ответственный начинающий веб-разработчик с большим желанием развиваться в сфере IT. 
+            Быстро осваиваю современные технологии и инструменты веб-разработки, внимателен к деталям и открыт для решения интересных практических задач.
+          </p>
+          <div class="about-grid">
+            <div class="about-item">
+              <span class="item-label">Город:</span>
+              <span class="item-value">Душанбе, Таджикистан</span>
+            </div>
+            <div class="about-item">
+              <span class="item-label">Занятость:</span>
+              <span class="item-value">Удалённо / Полная занятость</span>
+            </div>
+            <div class="about-item">
+              <span class="item-label">Статус:</span>
+              <span class="item-value status-active">Готов к работе и проектам</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Образование -->
+    <section id="education" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Образование</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="card timeline-card">
+              <span class="timeline-year">Среднее образование</span>
+              <h3 class="card-title">Средняя общеобразовательная школа №80</h3>
+              <p class="card-subtitle">Базовое образование</p>
+              <p class="card-text">
+                Углублённое изучение информатики, математики и базовых основ программирования.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="card timeline-card">
+              <span class="timeline-year">Самообразование</span>
+              <h3 class="card-title">Курсы веб-разработки (HTML5, CSS3, JS)</h3>
+              <p class="card-subtitle">Практическое обучение</p>
+              <p class="card-text">
+                Изучение семантической вёрстки, адаптивного дизайна, Flexbox, Grid и управления версиями через Git/GitHub.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Опыт работы -->
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Опыт работы</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="card timeline-card">
+              <span class="timeline-year">2024 — Настоящее время</span>
+              <h3 class="card-title">Junior Web Developer (Фриланс / Проекты)</h3>
+              <p class="card-subtitle">Самостоятельная разработка</p>
+              <ul class="experience-list">
+                <li><i class="fa-solid fa-angle-right"></i> Разработка адаптивных веб-страниц по современным стандартам.</li>
+                <li><i class="fa-solid fa-angle-right"></i> Тестирование корректности отображения на мобильных и десктопных экранах.</li>
+                <li><i class="fa-solid fa-angle-right"></i> Публикация и поддержка проектов на GitHub Pages.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Навыки -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Навыки</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="skills-grid">
+          <div class="card skill-card">
+            <h3 class="skill-category">Личные качества (Soft Skills)</h3>
+            <div class="tags">
+              <span class="tag"><i class="fa-solid fa-check"></i> Целеустремлённость</span>
+              <span class="tag"><i class="fa-solid fa-check"></i> Отзывчивость</span>
+              <span class="tag"><i class="fa-solid fa-check"></i> Желание учиться</span>
+              <span class="tag"><i class="fa-solid fa-check"></i> Ответственность</span>
+              <span class="tag"><i class="fa-solid fa-check"></i> Командная работа</span>
+            </div>
+          </div>
+          <div class="card skill-card">
+            <h3 class="skill-category">Технические навыки (Hard Skills)</h3>
+            <div class="tags">
+              <span class="tag"><i class="fa-brands fa-html5"></i> HTML5 / Семантика</span>
+              <span class="tag"><i class="fa-brands fa-css3-alt"></i> CSS3 (Flexbox & Grid)</span>
+              <span class="tag"><i class="fa-solid fa-mobile-screen-button"></i> Адаптивная вёрстка</span>
+              <span class="tag"><i class="fa-brands fa-js"></i> Основы JavaScript</span>
+              <span class="tag"><i class="fa-brands fa-github"></i> Git & GitHub Pages</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Проекты -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Проекты</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="projects-grid">
+          <article class="card project-card">
+            <div class="project-header">
+              <span class="project-badge">Портфолио</span>
+            </div>
+            <h3 class="card-title">Персональное веб-резюме</h3>
+            <p class="card-text">
+              Адаптивное резюме на чистом HTML5 и CSS3 без JavaScript. Поддержка мобильных устройств и десктопа.
+            </p>
+            <div class="tags">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">GitHub Pages</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-sm btn-primary"><i class="fa-solid fa-arrow-up-right-from-square"></i> Демо</a>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline"><i class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+          </article>
+
+          <article class="card project-card">
+            <div class="project-header">
+              <span class="project-badge">Лендинг</span>
+            </div>
+            <h3 class="card-title">Сайт-визитка для бизнеса</h3>
+            <p class="card-text">
+              Одностраничный промо-сайт с современной типографикой, блоками преимуществ и контактной формой.
+            </p>
+            <div class="tags">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS Grid</span>
+              <span class="tag">Responsive</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-sm btn-primary"><i class="fa-solid fa-arrow-up-right-from-square"></i> Демо</a>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline"><i class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Контакты с библиотечными иконками Font Awesome -->
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Контакты</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="contact-wrapper">
+          <div class="card contact-card">
+            <h3 class="card-title">Связаться со мной</h3>
+            <p class="card-text">
+              Всегда открыт для новых предложений, сотрудничества и учебных проектов. Свяжитесь со мной:
+            </p>
+            <div class="contact-links">
+              <a href="mailto:name@example.com" class="contact-item">
+                <i class="fa-solid fa-envelope contact-icon"></i>
+                <span>name@example.com</span>
+              </a>
+              <a href="tel:+992000000000" class="contact-item">
+                <i class="fa-solid fa-phone contact-icon"></i>
+                <span>+992 XX XXX XX XX</span>
+              </a>
+              <a href="https://t.me" target="_blank" rel="noopener noreferrer" class="contact-item">
+                <i class="fa-brands fa-telegram contact-icon"></i>
+                <span>Telegram: Написать сообщение</span>
+              </a>
+              <div class="contact-item">
+                <i class="fa-solid fa-location-dot contact-icon"></i>
+                <span>г. Душанбе</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Футер -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© 2026 Бобозода Расул. Все права защищены.</p>
+      <a href="#" class="back-to-top"><i class="fa-solid fa-arrow-up"></i> Наверх</a>
+    </div>
+  </footer>
+
+</body>
+</html>
